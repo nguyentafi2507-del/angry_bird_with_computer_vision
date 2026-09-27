@@ -1,0 +1,53 @@
+﻿#  Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+#  Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+#  Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+#  Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+#  IDE & editors
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+#  OS artefacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#  MediaPipe model (large binary ~7.8 MB)
+#  Bỏ comment dòng dưới nếu muốn KHÔNG commit file model
+#  (người clone sẽ tự tải về theo hướng dẫn trong README).
+hand_landmarker.task
+
+#  Logs & debug
+*.log
+logs/
+
+#  Misc
+*.bak
+*.tmp
